@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Makefile 编译目录
+build
+# VSCode 配置目录
+.vscode
+.cache
