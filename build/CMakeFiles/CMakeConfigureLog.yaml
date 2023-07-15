@@ -1,0 +1,572 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:199 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Linux -  - arm
+      The host system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/3.26.4/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/3.26.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-jtalgf"
+      binary: "D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-jtalgf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-jtalgf
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_7add8/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7add8.dir\\build.make CMakeFiles/cmTC_7add8.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-jtalgf'
+        Building C object CMakeFiles/cmTC_7add8.dir/CMakeCCompilerABI.c.o
+        D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-gcc.exe --sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot   -v -o CMakeFiles\\cmTC_7add8.dir\\CMakeCCompilerABI.c.o -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-gcc.exe
+        Target: aarch64-linux-gnu
+        Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/snapshots/gcc-linaro-5.3-2016.05/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --enable-lto --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/aarch64-linux-gnu/libc --enable-languages=c,c++,fortran,lto --enable-checking=release --disable-bootstrap --build=i686-pc-linux-gnu --host=i686-w64-mingw32 --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32
+        Thread model: posix
+        gcc version 5.3.1 20160412 (Linaro GCC 5.3-2016.05) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7add8.dir\\CMakeCCompilerABI.c.o' '-c' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+         d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/cc1.exe -quiet -v -imultiarch aarch64-linux-gnu -iprefix d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/ -isysroot Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles\\cmTC_7add8.dir\\CMakeCCompilerABI.c.o -version -o C:\\Users\\qc265\\AppData\\Local\\Temp\\ccMUlCkq.s
+        GNU C11 (Linaro GCC 5.3-2016.05) version 5.3.1 20160412 (aarch64-linux-gnu)
+        	compiled by GNU C version 4.8.2, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/include"
+        ignoring nonexistent directory "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/lib/gcc/aarch64-linux-gnu/5.3.1/../../../../include/aarch64-linux-gnu"
+        ignoring nonexistent directory "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/lib/gcc/aarch64-linux-gnu/5.3.1/../../../../include"
+        ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed"
+        ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include"
+        ignoring nonexistent directory "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include/aarch64-linux-gnu"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/include
+         d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed
+         d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include
+         Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C11 (Linaro GCC 5.3-2016.05) version 5.3.1 20160412 (aarch64-linux-gnu)
+        	compiled by GNU C version 4.8.2, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 836a5be878b86b8e135c11a6691bb247
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7add8.dir\\CMakeCCompilerABI.c.o' '-c' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+         d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/bin/as.exe -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles\\cmTC_7add8.dir\\CMakeCCompilerABI.c.o C:\\Users\\qc265\\AppData\\Local\\Temp\\ccMUlCkq.s
+        GNU assembler version 2.25.0 (aarch64-linux-gnu) using BFD version (Linaro_Binutils-2016.05) 2.25.0 Linaro 2016_02
+        COMPILER_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/bin/
+        LIBRARY_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7add8.dir\\CMakeCCompilerABI.c.o' '-c' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+        Linking C executable cmTC_7add8
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_7add8.dir\\link.txt --verbose=1
+        D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-gcc.exe --sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot  -v CMakeFiles/cmTC_7add8.dir/CMakeCCompilerABI.c.o -o cmTC_7add8 
+        Using built-in specs.
+        COLLECT_GCC=D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-gcc.exe
+        COLLECT_LTO_WRAPPER=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/lto-wrapper.exe
+        Target: aarch64-linux-gnu
+        Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/snapshots/gcc-linaro-5.3-2016.05/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --enable-lto --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/aarch64-linux-gnu/libc --enable-languages=c,c++,fortran,lto --enable-checking=release --disable-bootstrap --build=i686-pc-linux-gnu --host=i686-w64-mingw32 --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32
+        Thread model: posix
+        gcc version 5.3.1 20160412 (Linaro GCC 5.3-2016.05) 
+        COMPILER_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/bin/
+        LIBRARY_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7add8' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+         d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/collect2.exe -plugin d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/liblto_plugin-0.dll -plugin-opt=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\qc265\\AppData\\Local\\Temp\\ccmjsQ9B.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_7add8 Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crt1.o Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1 -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64 -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_7add8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+        mingw32-make.exe[1]: Leaving directory 'D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-jtalgf'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/include]
+          add: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed]
+          add: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include]
+          add: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/include] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/include]
+        collapse include dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed]
+        collapse include dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include]
+        collapse include dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/include;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(aarch64-linux-gnu-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-jtalgf]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_7add8/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7add8.dir\\build.make CMakeFiles/cmTC_7add8.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-jtalgf']
+        ignore line: [Building C object CMakeFiles/cmTC_7add8.dir/CMakeCCompilerABI.c.o]
+        ignore line: [D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-gcc.exe --sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot   -v -o CMakeFiles\\cmTC_7add8.dir\\CMakeCCompilerABI.c.o -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-gcc.exe]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/snapshots/gcc-linaro-5.3-2016.05/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --enable-lto --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/aarch64-linux-gnu/libc --enable-languages=c,c++,fortran,lto --enable-checking=release --disable-bootstrap --build=i686-pc-linux-gnu --host=i686-w64-mingw32 --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 5.3.1 20160412 (Linaro GCC 5.3-2016.05) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7add8.dir\\CMakeCCompilerABI.c.o' '-c' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/cc1.exe -quiet -v -imultiarch aarch64-linux-gnu -iprefix d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/ -isysroot Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles\\cmTC_7add8.dir\\CMakeCCompilerABI.c.o -version -o C:\\Users\\qc265\\AppData\\Local\\Temp\\ccMUlCkq.s]
+        ignore line: [GNU C11 (Linaro GCC 5.3-2016.05) version 5.3.1 20160412 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 4.8.2  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/include"]
+        ignore line: [ignoring nonexistent directory "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/lib/gcc/aarch64-linux-gnu/5.3.1/../../../../include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/lib/gcc/aarch64-linux-gnu/5.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include/aarch64-linux-gnu"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/include]
+        ignore line: [ d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed]
+        ignore line: [ d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include]
+        ignore line: [ Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C11 (Linaro GCC 5.3-2016.05) version 5.3.1 20160412 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 4.8.2  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 836a5be878b86b8e135c11a6691bb247]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7add8.dir\\CMakeCCompilerABI.c.o' '-c' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/bin/as.exe -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles\\cmTC_7add8.dir\\CMakeCCompilerABI.c.o C:\\Users\\qc265\\AppData\\Local\\Temp\\ccMUlCkq.s]
+        ignore line: [GNU assembler version 2.25.0 (aarch64-linux-gnu) using BFD version (Linaro_Binutils-2016.05) 2.25.0 Linaro 2016_02]
+        ignore line: [COMPILER_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_7add8.dir\\CMakeCCompilerABI.c.o' '-c' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [Linking C executable cmTC_7add8]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_7add8.dir\\link.txt --verbose=1]
+        ignore line: [D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-gcc.exe --sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot  -v CMakeFiles/cmTC_7add8.dir/CMakeCCompilerABI.c.o -o cmTC_7add8 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/lto-wrapper.exe]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/snapshots/gcc-linaro-5.3-2016.05/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --enable-lto --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/aarch64-linux-gnu/libc --enable-languages=c,c++,fortran,lto --enable-checking=release --disable-bootstrap --build=i686-pc-linux-gnu --host=i686-w64-mingw32 --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 5.3.1 20160412 (Linaro GCC 5.3-2016.05) ]
+        ignore line: [COMPILER_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7add8' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+        link line: [ d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/collect2.exe -plugin d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/liblto_plugin-0.dll -plugin-opt=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\qc265\\AppData\\Local\\Temp\\ccmjsQ9B.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_7add8 Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crt1.o Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1 -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64 -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_7add8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+          arg [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\qc265\\AppData\\Local\\Temp\\ccmjsQ9B.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [--fix-cortex-a53-835769] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_7add8] ==> ignore
+          arg [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> obj [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crt1.o]
+          arg [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> obj [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o]
+          arg [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o] ==> obj [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o]
+          arg [-Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1] ==> dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1]
+          arg [-Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu] ==> dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu]
+          arg [-Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc] ==> dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc]
+          arg [-Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64]
+          arg [-LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64] ==> dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64]
+          arg [-LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64]
+          arg [-Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib] ==> dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib]
+          arg [-LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib] ==> dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib]
+          arg [-LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib] ==> dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+          arg [CMakeFiles/cmTC_7add8.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o] ==> obj [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o]
+          arg [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> obj [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+        collapse obj [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crt1.o]
+        collapse obj [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crti.o]
+        collapse obj [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o]
+        collapse obj [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o]
+        collapse obj [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crtn.o]
+        collapse library dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1]
+        collapse library dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu]
+        collapse library dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc]
+        collapse library dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/lib64]
+        collapse library dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib64]
+        collapse library dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64]
+        collapse library dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/lib]
+        collapse library dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib]
+        collapse library dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crt1.o;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crti.o;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crtn.o]
+        implicit dirs: [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/lib64;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib64;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/lib;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-9ih2y8"
+      binary: "D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-9ih2y8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-9ih2y8
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_cae4a/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cae4a.dir\\build.make CMakeFiles/cmTC_cae4a.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-9ih2y8'
+        Building CXX object CMakeFiles/cmTC_cae4a.dir/CMakeCXXCompilerABI.cpp.o
+        D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-g++.exe --sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot   -v -o CMakeFiles\\cmTC_cae4a.dir\\CMakeCXXCompilerABI.cpp.o -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-g++.exe
+        Target: aarch64-linux-gnu
+        Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/snapshots/gcc-linaro-5.3-2016.05/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --enable-lto --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/aarch64-linux-gnu/libc --enable-languages=c,c++,fortran,lto --enable-checking=release --disable-bootstrap --build=i686-pc-linux-gnu --host=i686-w64-mingw32 --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32
+        Thread model: posix
+        gcc version 5.3.1 20160412 (Linaro GCC 5.3-2016.05) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cae4a.dir\\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+         d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/cc1plus.exe -quiet -v -imultiarch aarch64-linux-gnu -iprefix d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/ -isysroot Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot -D_GNU_SOURCE C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles\\cmTC_cae4a.dir\\CMakeCXXCompilerABI.cpp.o -version -o C:\\Users\\qc265\\AppData\\Local\\Temp\\ccGhoZ07.s
+        GNU C++ (Linaro GCC 5.3-2016.05) version 5.3.1 20160412 (aarch64-linux-gnu)
+        	compiled by GNU C version 4.8.2, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1"
+        ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1/aarch64-linux-gnu"
+        ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1/backward"
+        ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/include"
+        ignoring nonexistent directory "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/lib/gcc/aarch64-linux-gnu/5.3.1/../../../../include/aarch64-linux-gnu"
+        ignoring nonexistent directory "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/lib/gcc/aarch64-linux-gnu/5.3.1/../../../../include"
+        ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed"
+        ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include"
+        ignoring nonexistent directory "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include/aarch64-linux-gnu"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1
+         d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1/aarch64-linux-gnu
+         d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1/backward
+         d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/include
+         d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed
+         d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include
+         Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C++ (Linaro GCC 5.3-2016.05) version 5.3.1 20160412 (aarch64-linux-gnu)
+        	compiled by GNU C version 4.8.2, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: fe96f036c3d18996fc5134aa72f6619f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cae4a.dir\\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+         d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/bin/as.exe -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles\\cmTC_cae4a.dir\\CMakeCXXCompilerABI.cpp.o C:\\Users\\qc265\\AppData\\Local\\Temp\\ccGhoZ07.s
+        GNU assembler version 2.25.0 (aarch64-linux-gnu) using BFD version (Linaro_Binutils-2016.05) 2.25.0 Linaro 2016_02
+        COMPILER_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/bin/
+        LIBRARY_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cae4a.dir\\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+        Linking CXX executable cmTC_cae4a
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_cae4a.dir\\link.txt --verbose=1
+        D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-g++.exe --sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot  -v CMakeFiles/cmTC_cae4a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cae4a 
+        Using built-in specs.
+        COLLECT_GCC=D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-g++.exe
+        COLLECT_LTO_WRAPPER=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/lto-wrapper.exe
+        Target: aarch64-linux-gnu
+        Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/snapshots/gcc-linaro-5.3-2016.05/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --enable-lto --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/aarch64-linux-gnu/libc --enable-languages=c,c++,fortran,lto --enable-checking=release --disable-bootstrap --build=i686-pc-linux-gnu --host=i686-w64-mingw32 --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32
+        Thread model: posix
+        gcc version 5.3.1 20160412 (Linaro GCC 5.3-2016.05) 
+        COMPILER_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/bin/
+        LIBRARY_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/;d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cae4a' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+         d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/collect2.exe -plugin d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/liblto_plugin-0.dll -plugin-opt=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\qc265\\AppData\\Local\\Temp\\cc2au5dh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_cae4a Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crt1.o Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1 -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64 -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_cae4a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+        mingw32-make.exe[1]: Leaving directory 'D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-9ih2y8'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1]
+          add: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1/aarch64-linux-gnu]
+          add: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1/backward]
+          add: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/include]
+          add: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed]
+          add: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include]
+          add: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/5.3.1]
+        collapse include dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1/aarch64-linux-gnu] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/5.3.1/aarch64-linux-gnu]
+        collapse include dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1/backward] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/5.3.1/backward]
+        collapse include dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/include] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/include]
+        collapse include dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed]
+        collapse include dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include]
+        collapse include dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/5.3.1;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/5.3.1/aarch64-linux-gnu;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/5.3.1/backward;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/include;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(aarch64-linux-gnu-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-9ih2y8]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_cae4a/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cae4a.dir\\build.make CMakeFiles/cmTC_cae4a.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/CMakeScratch/TryCompile-9ih2y8']
+        ignore line: [Building CXX object CMakeFiles/cmTC_cae4a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-g++.exe --sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot   -v -o CMakeFiles\\cmTC_cae4a.dir\\CMakeCXXCompilerABI.cpp.o -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-g++.exe]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/snapshots/gcc-linaro-5.3-2016.05/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --enable-lto --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/aarch64-linux-gnu/libc --enable-languages=c,c++,fortran,lto --enable-checking=release --disable-bootstrap --build=i686-pc-linux-gnu --host=i686-w64-mingw32 --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 5.3.1 20160412 (Linaro GCC 5.3-2016.05) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cae4a.dir\\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/cc1plus.exe -quiet -v -imultiarch aarch64-linux-gnu -iprefix d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/ -isysroot Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot -D_GNU_SOURCE C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles\\cmTC_cae4a.dir\\CMakeCXXCompilerABI.cpp.o -version -o C:\\Users\\qc265\\AppData\\Local\\Temp\\ccGhoZ07.s]
+        ignore line: [GNU C++ (Linaro GCC 5.3-2016.05) version 5.3.1 20160412 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 4.8.2  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1"]
+        ignore line: [ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1/aarch64-linux-gnu"]
+        ignore line: [ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1/backward"]
+        ignore line: [ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/include"]
+        ignore line: [ignoring nonexistent directory "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/lib/gcc/aarch64-linux-gnu/5.3.1/../../../../include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/lib/gcc/aarch64-linux-gnu/5.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/../../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include/aarch64-linux-gnu"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1]
+        ignore line: [ d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1/aarch64-linux-gnu]
+        ignore line: [ d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include/c++/5.3.1/backward]
+        ignore line: [ d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/include]
+        ignore line: [ d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed]
+        ignore line: [ d:\\linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/include]
+        ignore line: [ Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++ (Linaro GCC 5.3-2016.05) version 5.3.1 20160412 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 4.8.2  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: fe96f036c3d18996fc5134aa72f6619f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cae4a.dir\\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/bin/as.exe -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles\\cmTC_cae4a.dir\\CMakeCXXCompilerABI.cpp.o C:\\Users\\qc265\\AppData\\Local\\Temp\\ccGhoZ07.s]
+        ignore line: [GNU assembler version 2.25.0 (aarch64-linux-gnu) using BFD version (Linaro_Binutils-2016.05) 2.25.0 Linaro 2016_02]
+        ignore line: [COMPILER_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cae4a.dir\\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [Linking CXX executable cmTC_cae4a]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_cae4a.dir\\link.txt --verbose=1]
+        ignore line: [D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-g++.exe --sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot  -v CMakeFiles/cmTC_cae4a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cae4a ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\Linux\\gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu\\bin\\aarch64-linux-gnu-g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/lto-wrapper.exe]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/snapshots/gcc-linaro-5.3-2016.05/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --enable-lto --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32/aarch64-linux-gnu/libc --enable-languages=c,c++,fortran,lto --enable-checking=release --disable-bootstrap --build=i686-pc-linux-gnu --host=i686-w64-mingw32 --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-i386-tcwg/target/aarch64-linux-gnu/_build/builds/destdir/i686-w64-mingw32]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 5.3.1 20160412 (Linaro GCC 5.3-2016.05) ]
+        ignore line: [COMPILER_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/]
+        ignore line: [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/]
+        ignore line: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cae4a' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64']
+        link line: [ d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/collect2.exe -plugin d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/liblto_plugin-0.dll -plugin-opt=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\qc265\\AppData\\Local\\Temp\\cc2au5dh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_cae4a Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crt1.o Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1 -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64 -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib -LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_cae4a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+          arg [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/5.3.1/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\qc265\\AppData\\Local\\Temp\\cc2au5dh.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [--fix-cortex-a53-835769] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_cae4a] ==> ignore
+          arg [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> obj [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crt1.o]
+          arg [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> obj [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o]
+          arg [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o] ==> obj [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o]
+          arg [-Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1] ==> dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1]
+          arg [-Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu] ==> dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu]
+          arg [-Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc] ==> dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc]
+          arg [-Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64]
+          arg [-LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64] ==> dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64]
+          arg [-LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64]
+          arg [-Ld:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib] ==> dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib]
+          arg [-LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib] ==> dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib]
+          arg [-LZ:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib] ==> dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+          arg [CMakeFiles/cmTC_cae4a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o] ==> obj [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o]
+          arg [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> obj [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+        collapse obj [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crt1.o]
+        collapse obj [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crti.o]
+        collapse obj [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o]
+        collapse obj [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o]
+        collapse obj [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crtn.o]
+        collapse library dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1]
+        collapse library dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu]
+        collapse library dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc]
+        collapse library dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/lib64]
+        collapse library dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib64]
+        collapse library dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64]
+        collapse library dir [d:/linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/5.3.1/../../../../aarch64-linux-gnu/lib] ==> [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/lib]
+        collapse library dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib]
+        collapse library dir [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib] ==> [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crt1.o;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crti.o;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/crtbegin.o;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/crtend.o;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64/crtn.o]
+        implicit dirs: [D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/lib64;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib64;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64;D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/lib;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib;Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+...

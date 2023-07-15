@@ -1,0 +1,11 @@
+D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/edit_cache.dir
+D:/Download/gdbus-demo-master/gdbus-demo-master/build/CMakeFiles/rebuild_cache.dir
+D:/Download/gdbus-demo-master/gdbus-demo-master/build/client/CMakeFiles/ExampleClientlib.dir
+D:/Download/gdbus-demo-master/gdbus-demo-master/build/client/CMakeFiles/edit_cache.dir
+D:/Download/gdbus-demo-master/gdbus-demo-master/build/client/CMakeFiles/rebuild_cache.dir
+D:/Download/gdbus-demo-master/gdbus-demo-master/build/server/CMakeFiles/SvrExample.dir
+D:/Download/gdbus-demo-master/gdbus-demo-master/build/server/CMakeFiles/edit_cache.dir
+D:/Download/gdbus-demo-master/gdbus-demo-master/build/server/CMakeFiles/rebuild_cache.dir
+D:/Download/gdbus-demo-master/gdbus-demo-master/build/example/CMakeFiles/CltExample.dir
+D:/Download/gdbus-demo-master/gdbus-demo-master/build/example/CMakeFiles/edit_cache.dir
+D:/Download/gdbus-demo-master/gdbus-demo-master/build/example/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,283 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "D:/Download/gdbus-demo-master/gdbus-demo-master/out/CltExample"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"INCLUDE_DIRECTORIES",
+			"include",
+			"project"
+		],
+		"files" : 
+		[
+			"example/CMakeLists.txt",
+			"client/CMakeLists.txt",
+			"toolchain.cmake",
+			"build/CMakeFiles/3.26.4/CMakeSystem.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 3
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 3,
+				"parent" : 5
+			},
+			{
+				"file" : 3,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 6,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 14,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -O2 -g -Wl,--no-undefined -rdynamic -pipe  -Wall -W -D_REENTRANT -fPIC -DGDBUSLIB_COM -Wunused-parameter -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include/glib-2.0"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib/glib-2.0/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include/gio-unix-2.0"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/Download/gdbus-demo-master/gdbus-demo-master/example/../includes"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/Download/gdbus-demo-master/gdbus-demo-master/example/../gdbus"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "ExampleClientlib::@b0c487aac068df482bf0"
+		}
+	],
+	"id" : "CltExample::@70983d692f648185febe",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wall -O2 -g -Wl,--no-undefined -rdynamic -pipe  -Wall -W -D_REENTRANT -fPIC -DGDBUSLIB_COM -Wunused-parameter -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,D:/Download/gdbus-demo-master/gdbus-demo-master/out",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\Download\\gdbus-demo-master\\gdbus-demo-master\\out\\libExampleClientlib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgio-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgobject-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgmodule-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgthread-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lglib-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgio-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgobject-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgmodule-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgthread-2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lglib-2.0",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C",
+		"sysroot" : 
+		{
+			"path" : "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot"
+		}
+	},
+	"name" : "CltExample",
+	"nameOnDisk" : "CltExample",
+	"paths" : 
+	{
+		"build" : "example",
+		"source" : "example"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "example/CltExample.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

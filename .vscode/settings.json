@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "pthread.h": "c",
+        "dbuscommon.h": "c",
+        "libclient.h": "c",
+        "stdlib.h": "c",
+        "glib.h": "c",
+        "galloca.h": "c",
+        "gio.h": "c",
+        "giotypes.h": "c",
+        "gioenums.h": "c",
+        "glib-object.h": "c",
+        "gbinding.h": "c",
+        "gtypes.h": "c",
+        "gmacros.h": "c",
+        "stdbool.h": "c",
+        "examplegdbusgenerated.h": "c",
+        "ctype.h": "c",
+        "stdio.h": "c"
+    }
+}

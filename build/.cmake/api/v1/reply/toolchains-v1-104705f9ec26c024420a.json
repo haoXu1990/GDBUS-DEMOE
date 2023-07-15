@@ -1,0 +1,115 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/include",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include",
+						"Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/lib64",
+						"Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib64",
+						"Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/lib",
+						"Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib",
+						"Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc.exe",
+				"version" : "5.3.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/5.3.1",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/5.3.1/aarch64-linux-gnu",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include/c++/5.3.1/backward",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/include",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1/include-fixed",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/include",
+						"Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/5.3.1",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/lib/gcc",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/lib64",
+						"Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib64",
+						"Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib64",
+						"D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/aarch64-linux-gnu/lib",
+						"Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/lib",
+						"Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/aarch64-buildroot-linux-gnu/sysroot/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "D:/Linux/gcc-linaro-5.3.1-2016.05-i686-mingw32_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++.exe",
+				"version" : "5.3.1"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

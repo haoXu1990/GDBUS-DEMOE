@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/include/glib-2.0/**",
+                "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/include/gio-unix-2.0/**",
+                "Z:/repo_test/t507_linux/out/t507/cqlht507_linux/longan/buildroot/host/usr/lib/glib-2.0/include/**",
+                "${workspaceFolder}/gdbus"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
