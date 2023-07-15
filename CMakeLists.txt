@@ -4,10 +4,18 @@ project(gdbus-demo)
 
 set(CMAKE_VERBOSE_MAKEFILE on)
 
+# set build out
 set(TARGET_OUT ${CMAKE_SOURCE_DIR}/out)
 
-
+# set library search path
 set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} ${TARGET_OUT})
+# set flags
+# ADD_DEFINITIONS(
+#         -O3 -g -W -Wall
+#         -Wunused-variable -Wunused-parameter -Wunused-function -Wunused
+#         -Wno-deprecated -Woverloaded-virtual -Wwrite-strings
+#         -D__WUR= -D_REENTRANT -D_FILE_OFFSET_BITS=64 -DTIXML_USE_STL
+# )
 
 set(CMAKE_C_FLAGS "-Wall -O2 -g -Wl,--no-undefined -rdynamic -pipe  -Wall -W -D_REENTRANT -fPIC -DGDBUSLIB_COM -Wunused-parameter")
 #######################################################################################
